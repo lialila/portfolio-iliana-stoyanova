@@ -3,7 +3,7 @@ import Link from "next/link";
 export const GlobalHeader = (): JSX.Element => {
   return (
     <>
-      <Link href="/home">
+      <Link href="/">
         <h1 className="text-3xl font-bold underline">Home</h1>
       </Link>
 
